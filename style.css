@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    height: 100vh;
+}
+.calculator{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 600px;
+}
+.display{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 95%;
+    height: 10%;
+}
+
+.clean-buttons{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.clean-button, .delete-button{
+    width: 45%;
+    height: 20px;
+}
+
+.buttons{
+    display: flex;
+
+}
+
+.button{
+    width: 100px;
+    height: 100px;
+}
+
+.last-input{
+    height: 30%;
+    text-align: right;
+}
+
+.input{
+    height: 70%;
+    text-align: right;
+}
